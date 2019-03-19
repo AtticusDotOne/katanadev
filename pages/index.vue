@@ -1,6 +1,6 @@
 <template>
   <div>
-    <splash />
+    <Splash />
     <IconList :itemlist="services" />
     <TextShow :text="mission" />
     <Team :members="team" />
