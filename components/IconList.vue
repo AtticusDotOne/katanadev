@@ -4,6 +4,7 @@
     :image="item.image"
     :caption="item.caption"
     :description="item.description"
+    :link="item.link"
     />
   </div>
 </template>
