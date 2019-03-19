@@ -1,5 +1,5 @@
 <template>
-    <div>
-        <p>SPLASH PAGE</p>
-    </div>
+  <div>
+    <p>SPLASH PAGE</p>
+  </div>
 </template>
