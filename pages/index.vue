@@ -18,18 +18,12 @@ export default {
     return {
       title: "Katana Dev",
       services: [
-        {"image": "", "caption": "Website"},
-        {"image": "", "caption": "Mobile Application"},
-        {"image": "", "caption": "Business Process"},
-        {"image": "", "caption": "Rapid Prototyping"},
-        {"image": "", "caption": "Automation"},
-        {"image": "", "caption": "White Labeling"},
-        {"image": "", "caption": "Technology"},
-        {"image": "", "caption": "Legal"},
-        {"image": "", "caption": "Marketing"},
-        {"image": "", "caption": "Public Relations"},
-        {"image": "", "caption": "Copywriting"},
-        {"image": "", "caption": "Translation"}
+        {"image": "", "caption": "Website", "description": "Develop and design a web site or web application"},
+        {"image": "", "caption": "Mobile Application", "description": "Develop and design a mobile application"},
+        {"image": "", "caption": "Support", "description": "Administer and maintain developed applications"},
+        {"image": "", "caption": "Marketing", "description": "Promote your site or application"},
+        {"image": "", "caption": "Copywriting", "description": "Draft content for your site"},
+        {"image": "", "caption": "Translation", "description": "Internationalize your content"}
       ]
     }
   }

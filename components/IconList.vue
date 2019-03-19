@@ -3,6 +3,7 @@
     <IconItem v-for="(item, index) in itemlist" :key="index"
     :image="item.image"
     :caption="item.caption"
+    :description="item.description"
     />
   </div>
 </template>
@@ -15,7 +16,7 @@ export default {
     IconItem
   },
   props: {
-    itemlist: {type: Array, required: false, default: [{"id": 1, "image": "", "caption": "No Caption"}]}
+    itemlist: {type: Array, required: false, default: []}
   }
 }
 </script>

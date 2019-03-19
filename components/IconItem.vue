@@ -1,7 +1,8 @@
 <template>
   <div>
     <img :src="image" />
-    <p>{{ caption }}</p>
+    <h2>{{ caption }}</h2>
+    <p>{{ description }}</p>
   </div>
 </template>
 
@@ -9,7 +10,8 @@
 export default {
   props: {
     caption: String, // eslint-disable-line
-    image: String // eslint-disable-line
+    image: String, // eslint-disable-line
+    description: String // eslint-disable-line
   }
 }
 </script>
