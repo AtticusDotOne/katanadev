@@ -1,11 +1,9 @@
 <template>
   <div>
-    <IconItem image="" caption="Website" />
-    <IconItem image="" caption="Mobile Application" />
-    <IconItem image="" caption="Business Process" />
-    <IconItem image="" caption="Rapid Prototyping" />
-    <IconItem image="" caption="Automation" />
-    <IconItem image="" caption="White Labeling" />
+    <IconItem v-for="(item, index) in itemlist" :key="index"
+    :image="item.image"
+    :caption="item.caption"
+    />
   </div>
 </template>
 
@@ -15,6 +13,9 @@ import IconItem from '@/components/IconItem'
 export default {
   components: {
     IconItem
+  },
+  props: {
+    itemlist: {type: Array, required: false, default: [{"id": 1, "image": "", "caption": "No Caption"}]}
   }
 }
 </script>

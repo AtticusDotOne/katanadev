@@ -1,7 +1,7 @@
 <template>
   <div>
     <splash />
-    <IconList />
+    <IconList :itemlist="services" />
   </div>
 </template>
 
@@ -16,7 +16,21 @@ export default {
   },
   data () {
     return {
-      title: "Katana Dev"
+      title: "Katana Dev",
+      services: [
+        {"image": "", "caption": "Website"},
+        {"image": "", "caption": "Mobile Application"},
+        {"image": "", "caption": "Business Process"},
+        {"image": "", "caption": "Rapid Prototyping"},
+        {"image": "", "caption": "Automation"},
+        {"image": "", "caption": "White Labeling"},
+        {"image": "", "caption": "Technology"},
+        {"image": "", "caption": "Legal"},
+        {"image": "", "caption": "Marketing"},
+        {"image": "", "caption": "Public Relations"},
+        {"image": "", "caption": "Copywriting"},
+        {"image": "", "caption": "Translation"}
+      ]
     }
   }
 }
