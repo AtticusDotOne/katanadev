@@ -1,0 +1,395 @@
+/* Dashboard */
+
+.modal-button {
+  right: 1rem;
+  position: absolute;
+  top: 0;
+}
+
+#dashboard section {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#dashboard section:nth-child(2) > div {
+  width: 50%;
+  display: inline-block;
+}
+#dashboard.pm-dash section:nth-child(2) > div {
+  width: 50%;
+}
+#dashboard.pm-dash section:nth-child(3) > div {
+  width: 100%;
+}
+#dashboard section:nth-child(2) > div > div button {
+  margin: 0;
+  width: 100%;
+  padding: 3rem 2rem 2rem;
+}
+#dashboard.pm-dash section:nth-child(3) > div > div {
+  padding: 1.5rem;
+  margin: 0;
+  display: inline-block;
+}
+#dashboard.pm-dash section:nth-child(3) > div button {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  align-content: flex-start;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+
+#dashboard.pm-dash section:nth-child(3) > div button span {
+  position: absolute;
+  right: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: 0.8rem;
+  background-color: hsla(305, 96%, 100%, 0.5);
+  color: gray;
+  border-radius: 0.5rem;
+  top: 0.7rem;
+  min-width: 3rem;
+  height: 3rem;
+  margin: 0;
+  line-height: 100%;
+  transition: all 0.25s;
+}
+
+#dashboard.pm-dash section:nth-child(3) > div div button i,
+#dashboard.pm-dash section:nth-child(3) > div div button figure {
+  font-size: 2rem;
+  width: 2rem;
+}
+#dashboard.pm-dash section:nth-child(3) > div div button figure {
+  margin: 0 1rem 0 0;
+}
+#dashboard.pm-dash section:nth-child(3) > div div button p {
+  font-size: 1.6rem;
+}
+#dashboard section:nth-child(2) > div > div button h3 {
+  margin: 0;
+  font-size: 2.6rem;
+}
+#dashboard section:nth-child(2) > div > div button i {
+  font-size: 6rem;
+}
+button p {
+  font-size: 1.6rem;
+}
+
+.list > div > div {
+  padding: 0 1.5rem;
+}
+
+#dashboard button {
+  color: black;
+  background-color: white;
+  border: solid 0.1rem hsla(0, 0%, 0%, 0.2);
+  border-color: hsla(0, 0%, 0%, 0.05) hsla(0, 0%, 0%, 0.1) hsla(0, 0%, 0%, 0.15);
+  box-shadow: 0rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.1);
+}
+#dashboard button:hover {
+  background-color: hsla(200, 50%, 55%, 0.15);
+}
+#dashboard button p {
+  margin: 0;
+}
+#dashboard button i {
+  color: hsla(200, 50%, 55%, 0.75);
+}
+
+#dashboard button .num {
+  position: absolute;
+  right: 2.25rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 0.8rem;
+  background-color: hsla(305, 96%, 40%, 0.5);
+  color: white;
+  border-radius: 0.5rem;
+  top: 2.25rem;
+  min-width: 3rem;
+  height: 3rem;
+  margin: 0;
+  line-height: 100%;
+  transition: all 0.25s;
+}
+#dashboard button:hover .num {
+  background-color: hsla(305, 96%, 40%, 1);
+  transition: all 0.1s;
+}
+
+/* Lists */
+
+main .list ul li,
+.v-autocomplete-list-item li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  padding: 1.5rem;
+  margin: 1rem 0 0 0;
+  border-top: solid 0.1rem hsla(0, 0%, 0%, 0.05);
+}
+main .list ul li:hover,
+.v-autocomplete-list-item li:hover {
+  background-color: hsla(190, 50%, 95%, 1);
+}
+main .list ul li figure,
+.v-autocomplete-list-item li figure {
+  background-color: hsla(0, 100%, 100%, 1);
+  margin: 0rem 2rem 0 0;
+  border: 0.1rem solid hsla(0, 0%, 80%, 1);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0.2rem;
+  width: 5rem;
+  height: 5rem;
+}
+main .list ul li figure img,
+.v-autocomplete-list-item li figure img,
+main .list ul li figure i,
+.v-autocomplete-list-item li figure i {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  color: gray;
+  font-size: 4rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+main .list ul li dl,
+.v-autocomplete-list-item li dl {
+  text-align: left;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+main .list ul li dt,
+.v-autocomplete-list-item li dt {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
+  display: block;
+  line-height: 100%;
+  color: hsla(210, 50%, 25%, 1);
+}
+main .list ul li dd,
+.v-autocomplete-list-item li dd {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  line-height: 100%;
+  width: auto;
+  display: inline-block;
+  margin: 0 1.5rem 0 0;
+  padding: 0 1.5rem 0 0;
+  border-right: 0.1rem dotted gray;
+}
+main .list ul li dd span,
+.v-autocomplete-list-item li dd span {
+  padding: 0;
+  margin: 0;
+  height: 2rem !important;
+  display: inline-block;
+  line-height: 100%;
+}
+main .list ul li dl dd:last-child,
+.v-autocomplete-list-item li dl dd:last-child {
+  margin: 0;
+  border-right: none;
+}
+main .list ul li dd i,
+.v-autocomplete-list-item li dd i {
+  font-size: 1.2rem;
+  color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+.list ul,
+.detail ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list ul li,
+.detail ul li {
+  background: #fff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+  border-bottom: solid #eee 0.1rem;
+  margin: 0;
+  padding: 0 0 0.5rem 0;
+}
+.list form ul li:last-child,
+.detail form ul li:last-child {
+  border-bottom: none;
+}
+.list ul li:hover,
+.detail ul li:hover {
+  background: #f5f5f5;
+  transition: all 0.1s ease-in-out;
+}
+.list figure,
+.list figure img,
+.detail figure,
+.detail figure img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 0.75rem 1rem 1rem 0.5rem;
+  display: inline-block;
+}
+.list li button,
+.detail li button {
+  width: 6rem;
+  height: 6rem;
+  background: transparent;
+  padding: 0;
+  margin: 1.75rem 1rem 1rem 1rem;
+}
+.list h4 + button,
+.detail h4 + button {
+  position: absolute;
+  right: 0;
+  color: black;
+}
+
+.detail li button {
+  display: none;
+}
+.editEnabled button {
+  display: inherit;
+}
+
+.list li dl,
+.detail li dl {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+}
+.list h4,
+.detail h4 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  display: inline-block;
+  margin: 1rem 0 1rem 1rem;
+  padding: 0;
+}
+.list dd,
+.detail dd {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  padding: 0;
+}
+.list dd i,
+.detail dd i {
+  font-size: 1.4rem;
+  color: hsla(0, 0%, 50%, 1);
+}
+
+.detail form button,
+.modal form button {
+  background-color: green;
+  padding: 1.5rem 3rem;
+  width: auto;
+  height: auto;
+  margin: 4rem auto;
+}
+
+main .modal-button {
+  width: 8rem;
+  height: 8rem;
+  background: green;
+  font-size: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+main .modal-button b {
+  display: none;
+}
+*/
+
+/*
+
+.details .list {
+  flex-direction: row;
+}
+
+.details .list .priority,
+.details .list .date,
+.details .list .time,
+.details .list .status {
+  width: 50%;
+}
+.details .list .notifier,
+.details .list .assigned {
+  width: 33.3%;
+}
+.details .list .property label,
+.details .list .notifier label,
+.details .list .assigned label {
+  text-align: center;
+}
+
+.details .list ul li figure {
+  margin: -1rem auto 0;
+  padding: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.details .list ul li figure img,
+.details .list ul li figure i {
+  width: 8.8rem;
+  height: 8.8rem;
+}
+
+.details .list .property,
+.details .list .notifier,
+.details .list .assigned {
+  width: 33.3%;
+}
+.details .list * ul li {
+  flex-direction: column;
+  border: none;
+}
+.details .list ul li dt {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 1.5rem 0 1.5rem 0;
+  width: 100%;
+  display: block;
+  line-height: 100%;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.details .list * ul li dd {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  line-height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin: 0 0 0.5rem;
+  padding: 0 0 0 0rem;
+  border-right: none;
+}
+*/

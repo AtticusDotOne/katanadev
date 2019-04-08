@@ -1,0 +1,222 @@
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+li,
+dt,
+dd,
+select,
+option,
+input,
+span,
+caption,
+textarea {
+  margin: 0 0 1rem;
+}
+#app > main .trn {
+  background-color: transparent !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt,
+th,
+legend {
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 140%;
+  margin: 3rem 0;
+}
+h1 {
+  color: hsla(225, 15%, 30%, 1);
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0.5rem;
+}
+h2,
+legend {
+  font-size: 6rem;
+  text-align: left;
+  font-size: 3.4rem;
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  color: hsla(225, 15%, 30%, 1);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+h5 {
+  font-size: 1.4rem;
+}
+h6 {
+  font-size: 1rem;
+}
+h4 {
+  font-weight: 400;
+}
+h5,
+h6 {
+  font-weight: 600;
+}
+p,
+th,
+td,
+li,
+dt,
+dd,
+span,
+caption {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 150%;
+}
+li,
+dt,
+dd {
+  line-height: 150%;
+  list-style-position: outside;
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+caption {
+  margin: 1.5rem;
+}
+dt,
+th,
+legend {
+  font-weight: 600;
+}
+small {
+  font-size: 82.5%;
+  color: hsla(175, 70%, 52%, 0.99);
+}
+a {
+  color: hsla(210, 50%, 25%, 1);
+  transition: all 0.15s;
+}
+a:hover {
+  color: hsla(225, 45%, 30%, 1);
+  transition: all 0s;
+}
+blockquote {
+}
+figure {
+  background: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 1rem;
+  line-height: 100%;
+  margin: 1rem auto;
+  min-width: 5rem;
+  min-height: 5rem;
+}
+figure img {
+  height: auto;
+  width: 100%;
+}
+table {
+  border: 0.1rem solid hsla(0, 0%, 85%, 1);
+  border-collapse: collapse;
+  margin: 1rem auto;
+  width: 100%;
+}
+td,
+th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+td {
+  border-bottom: 0.1rem dashed hsla(0, 0%, 75%, 1);
+}
+td a {
+}
+td a:hover {
+}
+th {
+  background-color: hsla(0, 0%, 85%, 1);
+  font-weight: 600;
+  padding: 1.5rem 1rem;
+  text-align: left;
+}
+table {
+  border: 0.1rem solid hsla(0, 0%, 85%, 1);
+  border-collapse: collapse;
+  margin: 1rem auto;
+  width: 100%;
+}
+td,
+th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+td {
+  border-bottom: 0.1rem dashed hsla(0, 0%, 75%, 1);
+}
+td a {
+}
+td a:hover {
+}
+th {
+  background-color: hsla(0, 0%, 85%, 1);
+  font-weight: 600;
+  padding: 1.5rem 1rem;
+  text-align: left;
+}
+pre {
+  background: hsla(210, 20%, 10%, 1);
+  border-radius: 0.5rem;
+  color: hsla(0, 0%, 100%, 1);
+  counter-reset: line;
+  padding: 2rem 2rem 1rem;
+}
+code {
+  color: hsla(0, 0%, 100%, 1);
+  counter-increment: line;
+  display: inline-block;
+  /* border-right: 1px solid #ddd; */
+  margin-right: 0;
+  padding: 0;
+  -moz-tab-size: 3rem;
+  -o-tab-size: 3rem;
+  tab-size: 3rem;
+}
+button {
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 0.25rem;
+  outline: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+  background-color: hsla(191, 88%, 36%, 1);
+  border-radius: 0.5rem;
+  color: white;
+  transition: all 0.15s;
+}
+button:hover {
+  transition: all 0s;
+  background-color: hsla(191, 88%, 46%, 1);
+}

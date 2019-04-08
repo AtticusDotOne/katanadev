@@ -1,0 +1,166 @@
+/* Main Page Sections */
+
+#main > section {
+  padding-top: 5rem;
+}
+
+#intro,
+#mission,
+#services,
+#team,
+#portfolio,
+#engage,
+#contact {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem;
+  text-align: center;
+  color: hsla(0, 100%, 100%, 0.65);
+}
+#main > *[id] > * div {
+  text-align: center;
+}
+
+#intro {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+#mission {
+  background-color: hsla(300, 50%, 35%, 1);
+}
+#services {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+#team {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+#portfolio {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+#engage {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+#contact {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+
+/* ------------------------------ Articles */
+
+#app > * > article {
+  position: relative;
+}
+
+#app > * > article > * {
+  padding: 0rem;
+}
+
+/* ------------------------------ Headers */
+
+#app > header {
+  background-color: hsla(210, 70%, 20%, 1);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 300;
+}
+#app > header > section {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+#app > header > section > nav,
+#app > header > section > div {
+  width: auto;
+}
+#app > header > section ul {
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#app > header > section nav ul li {
+  margin: 0;
+  padding: 0;
+}
+#app > header > section nav ul > li a,
+#app > header > section nav ul > li button,
+#app > header > section nav ul > li h4 {
+  color: hsla(0, 100%, 100%, 0.65);
+  display: inline-block;
+  padding: 1.7rem 1rem;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  background-color: transparent;
+  line-height: 100%;
+}
+#app > header > section nav ul > li h4 {
+  width: 100%;
+  white-space: nowrap;
+}
+#app > header > section ul > li a:hover,
+#app > header > section ul > li button:hover {
+  color: hsla(0, 100%, 100%, 1);
+  background-color: transparent;
+}
+
+#app > header > section ul > li .dot {
+  position: absolute;
+  left: 3rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #c704b7;
+  color: white;
+  border-radius: 1rem;
+  top: 1rem;
+  min-width: 2rem;
+  height: 2rem;
+  margin: 0;
+  line-height: 100%;
+}
+
+/* ------------------------------ Mains */
+
+#app > * > article > main {
+  padding-top: 0;
+}
+
+/* ------------------------------ Footers */
+
+#app > * > article > footer {
+  bottom: 0;
+  top: inherit;
+  background-color: hsla(210, 50%, 25%, 1);
+  height: 6rem;
+  position: absolute;
+  z-index: 300;
+}
+
+/* Navigator */
+
+#navigator {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: 8rem;
+  background: #ddd;
+}
+#navigator nav ul {
+  flex-direction: column;
+}
+#navigator nav ul li a {
+  display: inline-block;
+  background: #eee;
+}
+
+#intro {
+  padding-top: 5rem;
+  background-color: hsla(210, 50%, 25%, 1);
+}

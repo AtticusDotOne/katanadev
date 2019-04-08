@@ -1,0 +1,188 @@
+/* Forms */
+form {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+form > div {
+  align-items: stretch;
+  background: hsla(0, 100%, 100%, 0);
+  border: 0;
+  display: inline-block;
+
+  width: 100%;
+  border-radius: 0.5rem;
+  margin: 0;
+  padding: 1.5rem;
+}
+form p {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+p.bedrooms,
+p.bathrooms,
+p.area,
+p.price {
+  width: 30%;
+}
+p > label {
+  display: block;
+  font-weight: 500;
+  margin: 0 0 0.75rem 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 140%;
+  color: hsla(210, 50%, 25%, 0.65);
+}
+input,
+p > input[type="text"],
+p > input[type="email"],
+p > input[type="tel"],
+p > input[type="number"],
+p > select,
+p > textarea {
+  padding: 0.75rem 1.5rem 0.75rem 5rem;
+  display: inline-block;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: solid 0.1rem hsla(0, 0%, 0%, 0.2);
+  border-color: hsla(0, 0%, 0%, 0.25) hsla(0, 0%, 0%, 0.2) hsla(0, 0%, 0%, 0.1);
+  margin: 0;
+  box-shadow: inset 0rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.1);
+  background-color: hsla(0, 0%, 100%, 1);
+  height: 5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  /* margin: 0.5rem 0 0.5rem 0; */
+  /* width: 100%; */
+  /* display: block; */
+  line-height: 100%;
+  color: hsla(210, 50%, 25%, 1);
+}
+input + i,
+p > input[type="text"] + i,
+p > input[type="email"] + i,
+p > input[type="tel"] + i,
+p > input[type="number"] + i,
+p > select i {
+  top: 4.25rem;
+  position: absolute;
+  left: 2rem;
+  font-size: 1.8rem;
+  z-index: 300;
+  background: transparent !important;
+  color: hsla(200, 50%, 55%, 0.75);
+}
+p > input[type="checkbox"]:checked + label,
+p > input[type="radio"]:checked + label {
+  color: hsla(200, 43%, 5%, 1);
+}
+form div > p > input + i {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: solid 0.1rem hsla(0, 100%, 100%, 0.25);
+  -webkit-text-fill-color: hsla(270, 28%, 50%, 1) !important;
+  background-color: hsla(270, 28%, 50%, 0.25);
+  color: hsla(0, 100%, 100%, 1);
+}
+p input[disabled="disabled"],
+p textarea[disabled="disabled"],
+p select[disabled="disabled"] {
+  border: solid 0.1rem hsla(0, 0%, 0%, 0.2);
+  border-color: hsla(0, 0%, 0%, 0.25) hsla(0, 0%, 0%, 0.2) hsla(0, 0%, 0%, 0.1);
+  box-shadow: inset 0rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.1);
+  background-color: hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 20%, 1);
+  cursor: not-allowed;
+}
+textarea {
+  width: 100%;
+  min-height: 20rem;
+}
+p > select::-ms-expand {
+  display: none;
+}
+p > select:hover,
+p > select:focus {
+  color: #000;
+}
+p > select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+p > select i {
+  background: hsla(0, 0%, 90%, 0);
+  border: solid 0 hsla(200, 43%, 5%, 1);
+  box-shadow: none;
+  height: 2rem;
+  left: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 1rem;
+  top: 4rem;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all 0.3s;
+  width: 2rem;
+}
+p > select i:after {
+  border: solid hsla(200, 43%, 5%, 1);
+  border-width: 0 0.2rem 0.2rem 0;
+  box-shadow: none;
+  height: 0.8rem;
+  left: 0.6rem;
+  pointer-events: none;
+  position: absolute;
+  top: 0.5rem;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 0.8rem;
+}
+p > select > option {
+  background: white;
+}
+p > select:hover ~ i,
+p > select:active ~ i,
+p > select:focus ~ i {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: all 0.3s;
+}
+p > select:visited ~ i {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
