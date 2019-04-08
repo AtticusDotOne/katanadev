@@ -19,7 +19,46 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+          'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'css/reset.css'
+      },
+      {
+        href: 'css/fire.css',
+        rel: 'stylesheet',
+        type: 'text/css'
+      },
+      {
+        href: 'css/base.css',
+        rel: 'stylesheet',
+        type: 'text/css'
+      },
+      {
+        href: 'css/sections.css',
+        rel: 'stylesheet',
+        type: 'text/css'
+      },
+      {
+        href: 'css/forms.css',
+        rel: 'stylesheet',
+        type: 'text/css'
+      },
+      {
+        href: 'css/navs.css',
+        rel: 'stylesheet',
+        type: 'text/css'
+      },
+      {
+        href: 'css/lists.css',
+        rel: 'stylesheet',
+        type: 'text/css'
+      },
+      {
+        href: 'css/theme.css',
+        rel: 'stylesheet',
+        type: 'text/css'
       }
     ]
   },
