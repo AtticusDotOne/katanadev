@@ -26,12 +26,12 @@ module.exports = {
         href: 'css/reset.css'
       },
       {
-        href: 'css/fire.css',
+        href: 'css/base.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/base.css',
+        href: 'css/fire.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
@@ -70,8 +70,8 @@ module.exports = {
 
   /*
    ** Global CSS
-   */
-  css: ['~/assets/style/app.styl'],
+  
+  css: ['~/assets/style/app.styl'], */
 
   /*
    ** Plugins to load before mounting the App
