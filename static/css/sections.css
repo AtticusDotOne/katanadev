@@ -1,7 +1,7 @@
 /* Main Page Sections */
 
 #main > section {
-  padding-top: 5rem;
+  padding: 5rem inherit;
 }
 
 #intro,
@@ -24,6 +24,19 @@
 #intro {
   background-color: hsla(0, 50%, 50%, 1);
 }
+#intro section {
+  justify-content: center;
+  align-content: center;
+}
+#intro svg {
+  max-height: 80vh;
+  max-width: 80%;
+  width: 80%;
+  height: auto;
+}
+
+/* Mission */
+
 #mission {
   background-color: hsla(300, 50%, 35%, 1);
 }
@@ -56,7 +69,7 @@
 /* ------------------------------ Headers */
 
 #app > header {
-  background-color: hsla(210, 70%, 20%, 1);
+  background-color: hsla(210, 70%, 100%, 1);
   height: 5rem;
   position: fixed;
   top: 0;
@@ -87,13 +100,13 @@
 #app > header > section nav ul > li a,
 #app > header > section nav ul > li button,
 #app > header > section nav ul > li h4 {
-  color: hsla(0, 100%, 100%, 0.65);
+  color: hsla(0, 100%, 0%, 0.75);
   display: inline-block;
-  padding: 1.7rem 1rem;
+  padding: 1.8rem 1rem;
   display: inline-block;
   cursor: pointer;
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
   letter-spacing: 0.1rem;
   text-decoration: none;
@@ -106,7 +119,7 @@
 }
 #app > header > section ul > li a:hover,
 #app > header > section ul > li button:hover {
-  color: hsla(0, 100%, 100%, 1);
+  color: hsla(0, 100%, 0%, 1);
   background-color: transparent;
 }
 
@@ -162,5 +175,5 @@
 
 #intro {
   padding-top: 5rem;
-  background-color: hsla(210, 50%, 25%, 1);
+  background-color: hsla(210, 50%, 100%, 1);
 }
