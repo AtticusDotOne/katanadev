@@ -7,6 +7,22 @@ module.exports = {
    ** Headers of the page
    */
   head: {
+    script: [
+      {
+        src: 'https://pro.fontawesome.com/releases/v5.8.1/js/light.js',
+        integrity:
+          'sha384-avwGKnev1pyXYEbWxXSg9S4rpTsws+5vQpoj76SfcccEzOL162Ei8+z4a6AlaMeE',
+        deferred: true,
+        crossorigin: 'anonymous'
+      },
+      {
+        src: 'https://pro.fontawesome.com/releases/v5.8.1/js/fontawesome.js',
+        integrity:
+          'sha384-w6QYwIdCVqcYkHtaFutVu3VlDeu+pBFvlp7e0/tygMFwnWTl13KuVYfsp0ediPpA',
+        deferred: true,
+        crossorigin: 'anonymous'
+      }
+    ],
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },

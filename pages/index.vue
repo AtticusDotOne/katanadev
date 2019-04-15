@@ -102,6 +102,7 @@
                         <div>
                             <div>
                                 <h4>Automation</h4>
+                                <i class="fal fa-balance-scale"></i>
                                 <ul>
                                     <li>Software Consulting</li>
                                     <li>Full-stack software development</li>
