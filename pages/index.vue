@@ -4867,7 +4867,7 @@
                         <div>
                             <div>
                                 <figure>
-                                    <img src alt>
+                                    <img src="~/assets/images/sam-bourque.png" alt="Sam Bourque">
                                 </figure>
                                 <h3>Sam Bourque</h3>
                                 <h4>Director</h4>
@@ -4876,7 +4876,7 @@
                         <div>
                             <div>
                                 <figure>
-                                    <img src alt>
+                                    <img src="~/assets/images/troy-martz.png" alt="Troy Martz">
                                 </figure>
                                 <h3>Troy Martz</h3>
                                 <h4>Designer</h4>
@@ -4885,7 +4885,7 @@
                         <div>
                             <div>
                                 <figure>
-                                    <img src alt>
+                                    <img src="~/assets/images/yuri-nagano.png" alt="Yuri Nagano">
                                 </figure>
                                 <h3>Yuri Nagano</h3>
                                 <h4>Accountant</h4>
