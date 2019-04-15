@@ -38,17 +38,56 @@
 /* Mission */
 
 #mission {
-  background-color: hsla(300, 50%, 35%, 1);
+  background-color: hsla(300, 50%, 0%, 1);
 }
+
+/* Services */
+
 #services {
-  background-color: hsla(0, 60%, 50%, 1);
+  background-color: hsla(0, 60%, 100%, 1);
+  color: black;
 }
+#services ul {
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Team */
+
 #team {
-  background-color: hsla(60, 50%, 50%, 1);
+  background-color: #bc2e2e;
+  color: #fff;
 }
+#team h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.6rem;
+  background-color: black;
+  width: auto;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  margin: -2rem 0 0 0;
+}
+#team figure {
+  background: url(../images/avatar-bg.png) no-repeat center center;
+  background-size: contain;
+}
+
+/* Portfolio */
+
 #portfolio {
   background-color: hsla(90, 50%, 50%, 1);
+  flex-wrap: wrap;
 }
+#portfolio > div section {
+  flex-wrap: wrap;
+}
+#portfolio > div section > div {
+  width: 33.33333%;
+}
+
+/* Engage */
+
 #engage {
   background-color: hsla(210, 50%, 50%, 1);
 }

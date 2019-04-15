@@ -42,6 +42,7 @@ h5,
 h6 {
   line-height: 140%;
   margin: 3rem 0;
+  font-family: alice;
 }
 h1 {
   color: hsla(225, 15%, 30%, 1);
@@ -52,9 +53,10 @@ h1 {
 }
 h2,
 legend {
-  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 4rem;
   text-align: left;
-  font-size: 3.4rem;
   text-align: center;
 }
 h3 {
@@ -122,18 +124,21 @@ a:hover {
 blockquote {
 }
 figure {
-  background: #ccc;
   border-radius: 50%;
   display: inline-block;
   padding: 1rem;
   line-height: 100%;
-  margin: 1rem auto;
-  min-width: 5rem;
-  min-height: 5rem;
+  margin: 1rem auto 0;
+  min-width: 15rem;
+  min-height: 15rem;
+  max-width: 25rem;
+  max-height: 25rem;
+  background-color: transparent;
 }
 figure img {
   height: auto;
   width: 100%;
+  border-radius: 50%;
 }
 table {
   border: 0.1rem solid hsla(0, 0%, 85%, 1);
