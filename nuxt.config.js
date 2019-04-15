@@ -78,9 +78,9 @@ module.exports = {
 
   /*
    ** Plugins to load before mounting the App
- 
-  plugins: ['@/plugins/vuetify'],
-  */
+   */
+  plugins: [],
+
   /*
    ** Nuxt.js modules
    */
@@ -94,5 +94,31 @@ module.exports = {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+
+  /*
+   ** Build configuration
+   */
+  build: {
+    transpile: [],
+    plugins: [],
+    loaders: {
+      stylus: {
+        import: ['~assets/style/variables.styl']
+      }
+    },
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          exclude: /(node_modules)/
+        })
+      }
+    }
   }
 }
