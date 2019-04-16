@@ -7,22 +7,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    script: [
-      {
-        src: 'https://pro.fontawesome.com/releases/v5.8.1/js/light.js',
-        integrity:
-          'sha384-avwGKnev1pyXYEbWxXSg9S4rpTsws+5vQpoj76SfcccEzOL162Ei8+z4a6AlaMeE',
-        deferred: true,
-        crossorigin: 'anonymous'
-      },
-      {
-        src: 'https://pro.fontawesome.com/releases/v5.8.1/js/fontawesome.js',
-        integrity:
-          'sha384-w6QYwIdCVqcYkHtaFutVu3VlDeu+pBFvlp7e0/tygMFwnWTl13KuVYfsp0ediPpA',
-        deferred: true,
-        crossorigin: 'anonymous'
-      }
-    ],
+    script: [],
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
@@ -78,6 +63,25 @@ module.exports = {
         href: 'css/theme.css',
         rel: 'stylesheet',
         type: 'text/css'
+      },
+      {
+        href: 'https://pro.fontawesome.com/releases/v5.8.1/css/light.css',
+        rel: 'stylesheet',
+        type: 'text/css',
+        crossorigin: 'anonymos',
+        integrity:
+          'sha384-3SMOAKCN8LYSMjkWz1ChDg4pHSLtD+LuKXaZoHxE1oyDneLR6Ebjm3XHMHO9fWu3',
+        defered: true
+      },
+      {
+        href:
+          'hhttps://pro.fontawesome.com/releases/v5.8.1/css/fontawesome.css',
+        rel: 'stylesheet',
+        type: 'text/css',
+        crossorigin: 'anonymos',
+        integrity:
+          'sha384-4HqGlagEHMyfaDQVabl1wx7GCtGw6hDl3sKJEhqQjOCrXrvizhaA2j4hK8Piewtr',
+        defered: true
       }
     ]
   },
