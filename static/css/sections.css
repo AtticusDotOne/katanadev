@@ -103,13 +103,12 @@
   background-position: right bottom;
   background-position-x: 130%;
   flex-wrap: wrap;
-  padding-right: 33.3333%;
 }
 #portfolio > div section {
   flex-wrap: wrap;
 }
 #portfolio > div section > div {
-  width: 50%;
+  width: 33.33333%;
 }
 #portfolio figure {
   background: url(../images/avatar-bg.png) no-repeat center center;

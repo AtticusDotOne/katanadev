@@ -53,7 +53,8 @@
                 <div>
                     <div>
                         <img src="images/logo.png">
-                        <h1>Serious App Development</h1>
+                        <h1>The Cutting Edge</h1>
+                        <h2>Serious App Development</h2>
                     </div>
                 </div>
             </section>
