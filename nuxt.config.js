@@ -65,23 +65,20 @@ module.exports = {
         type: 'text/css'
       },
       {
+        href: 'https://pro.fontawesome.com/releases/v5.8.1/css/fontawesome.css',
+        rel: 'stylesheet',
+        type: 'text/css',
+        crossorigin: 'anonymos',
+        integrity:
+          'sha384-4HqGlagEHMyfaDQVabl1wx7GCtGw6hDl3sKJEhqQjOCrXrvizhaA2j4hK8Piewtr'
+      },
+      {
         href: 'https://pro.fontawesome.com/releases/v5.8.1/css/light.css',
         rel: 'stylesheet',
         type: 'text/css',
         crossorigin: 'anonymos',
         integrity:
-          'sha384-3SMOAKCN8LYSMjkWz1ChDg4pHSLtD+LuKXaZoHxE1oyDneLR6Ebjm3XHMHO9fWu3',
-        defered: true
-      },
-      {
-        href:
-          'hhttps://pro.fontawesome.com/releases/v5.8.1/css/fontawesome.css',
-        rel: 'stylesheet',
-        type: 'text/css',
-        crossorigin: 'anonymos',
-        integrity:
-          'sha384-4HqGlagEHMyfaDQVabl1wx7GCtGw6hDl3sKJEhqQjOCrXrvizhaA2j4hK8Piewtr',
-        defered: true
+          'sha384-3SMOAKCN8LYSMjkWz1ChDg4pHSLtD+LuKXaZoHxE1oyDneLR6Ebjm3XHMHO9fWu3'
       }
     ]
   },

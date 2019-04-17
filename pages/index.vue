@@ -35,7 +35,9 @@
                 <nav>
                     <ul>
                         <li>
-                            <a id="contactBtn" href="#contact">Contact</a>
+                            <a id="phone" tel="+16198840677">
+                                <i class="fal fa-mobile-android-alt"></i> (619) 884-0677
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -47,10 +49,11 @@
         <main id="main">
             <!-- Start: Intro -->
 
-            <section id="intro">
+            <section id="intro" style="position:relative">
                 <div>
                     <div>
                         <img src="images/logo.png">
+                        <h1>Serious App Development</h1>
                     </div>
                 </div>
             </section>
@@ -84,14 +87,14 @@
                         <div>
                             <div>
                                 <h2>Katana Services</h2>
-                                <h3>Our Expertise</h3>
+                                <h3>Our Expertise In Software Engineering</h3>
                             </div>
                         </div>
                     </section>
                     <section>
                         <div>
                             <div>
-                                <h4>Automation</h4>
+                                <h4>Software Automation</h4>
                                 <ul>
                                     <li>Software Consulting</li>
                                     <li>End-to-end software automation</li>
@@ -101,42 +104,118 @@
                         </div>
                         <div>
                             <div>
-                                <h4>Automation</h4>
-                                <i class="fal fa-balance-scale"></i>
+                                <h4>Custom Software Development</h4>
                                 <ul>
                                     <li>Software Consulting</li>
                                     <li>Full-stack software development</li>
-                                    <li>End-to-end software automation</li>
-                                    <li>iOS app development</li>
-                                    <li>Android app development</li>
-                                    <li>Marketing automation</li>
-                                    <li>FX Trading Platform</li>
-                                    <li>Cryptocurrency Exchanges</li>
-                                    <li>Cryptocurrency Wallets</li>
-                                    <li>Smart Contracts (Solidity)</li>
-                                    <li>Contract management Systems</li>
-                                    <li>VoIP Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Web Application Development</h4>
+                                <ul>
+                                    <li>A</li>
+                                    <li>B</li>
                                     <li>Restful API development</li>
                                 </ul>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <h4>Solutions</h4>
+                                <h4>Cryptocurrencies &amp; Blockchain</h4>
                                 <ul>
-                                    <li>Software Consulting</li>
-                                    <li>Full-stack software development</li>
-                                    <li>End-to-end software automation</li>
-                                    <li>iOS app development</li>
-                                    <li>Android app development</li>
-                                    <li>Marketing automation</li>
-                                    <li>FX Trading Platform</li>
                                     <li>Cryptocurrency Exchanges</li>
                                     <li>Cryptocurrency Wallets</li>
                                     <li>Smart Contracts (Solidity)</li>
-                                    <li>Contract management Systems</li>
-                                    <li>VoIP Management</li>
-                                    <li>Restful API development</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>AI &amp; Machine Learning</h4>
+                                <ul>
+                                    <li>A</li>
+                                    <li>B</li>
+                                    <li>C</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Big Data</h4>
+                                <ul>
+                                    <li>A</li>
+                                    <li>B</li>
+                                    <li>C</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Internet of Things</h4>
+                                <ul>
+                                    <li>A</li>
+                                    <li>B</li>
+                                    <li>C</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>Business Intelligence</h4>
+                                <ul>
+                                    <li>A</li>
+                                    <li>B</li>
+                                    <li>C</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>
+                                    <i class="fas fa-fish"></i> Online Marketing Systems
+                                </h4>
+                                <ul>
+                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Marketing Management Systems</li>
+                                    <li>Social Media Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>
+                                    <i class="fal fa-balance-scale"></i> Mobile App Development
+                                </h4>
+                                <ul>
+                                    <li>iOS app development</li>
+                                    <li>Android app development</li>
+                                    <li>OS app development</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>
+                                    <i class="fal fa-balance-scale"></i> Real-Time Communications
+                                </h4>
+                                <ul>
+                                    <li>VoIP Systems</li>
+                                    <li>Video Broadcasting/Streaming Systems</li>
+                                    <li>Real-time Chat Applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>
+                                    <i class="fal fa-balance-scale"></i> Mission-Critical Applications
+                                </h4>
+                                <ul>
+                                    <li>Financial Trading Systems</li>
+                                    <li>Banking &amp; Healthcare Software</li>
+                                    <li>M</li>
                                 </ul>
                             </div>
                         </div>
@@ -150,11 +229,7 @@
                 <div>
                     <div>
                         <h2>The Katana Team</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam
-                            arcu, ornare vel ante non, imperdiet scelerisque turpis. Nulla
-                            at enim nec erat pulvinar commodo.
-                        </p>
+                        <p>Experienced. Streamlined. Aggressive.</p>
                     </div>
                     <section>
                         <div>
@@ -201,7 +276,7 @@
                                 <figure>
                                     <img src alt>
                                 </figure>
-                                <h3>[Private Company]</h3>
+                                <h3>[Private]</h3>
                                 <h4>Property Management System</h4>
                             </div>
                         </div>
@@ -220,7 +295,7 @@
                                     <img src alt>
                                 </figure>
                                 <h3>Cryptique</h3>
-                                <h4>Cryptocurrency Arbitrage</h4>
+                                <h4>Cryptocurrency Exchange Arbitrage</h4>
                             </div>
                         </div>
                         <div>
@@ -228,7 +303,7 @@
                                 <figure>
                                     <img src alt>
                                 </figure>
-                                <h3>Kasai 火災</h3>
+                                <h3>Kasai</h3>
                                 <h4>Hosting Service</h4>
                             </div>
                         </div>
@@ -264,17 +339,13 @@
                             Donec efficitur dolor orci, sed mattis orci aliquam quis.
                             Maecenas porttitor convallis purus, nec luctus ligula
                             ullamcorper sit amet. Pellentesque ut ipsum accumsan, volutpat
-                            turpis non, placerat sem. Quisque maximus at lorem id faucibus.
-                            Praesent pretium tincidunt dui id consequat.
+                            turpis non, placerat sem.
                         </p>
-                        <p>
-                            Phasellus volutpat velit at justo lacinia tempor. Etiam pulvinar
-                            eros sed convallis malesuada. Mauris est ipsum, tempus non lacus
-                            non, varius ultricies odio. Donec nulla ex, sodales sit amet
-                            tortor nec, tristique bibendum risus. Mauris imperdiet leo non
-                            libero ullamcorper hendrerit. Duis blandit pulvinar ante ac
-                            condimentum.
-                        </p>
+                        <h3>Give Us a Call:</h3>
+                        <h2>
+                            <i class="fal fa-mobile-android-alt"></i> (619) 884-0677
+                        </h2>
+                        <button>Send Us An Email</button>
                     </div>
                 </div>
             </section>

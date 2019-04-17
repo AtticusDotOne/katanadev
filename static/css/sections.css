@@ -16,6 +16,7 @@
   padding: 5rem;
   text-align: center;
   color: hsla(0, 100%, 100%, 0.65);
+  justify-content: flex-start;
 }
 #main > *[id] > * div {
   text-align: center;
@@ -27,6 +28,9 @@
 #intro section {
   justify-content: center;
   align-content: center;
+}
+#intro > section > div {
+  margin: auto;
 }
 #intro svg {
   max-height: 80vh;
@@ -46,10 +50,27 @@
 #services {
   background-color: hsla(0, 60%, 100%, 1);
   color: black;
+  flex-wrap: wrap;
+}
+#services > div > section:nth-of-type(2) {
+  flex-wrap: wrap;
+}
+#services > div > section:nth-of-type(2) > div {
+  width: 33.33333%;
 }
 #services ul {
   flex-direction: column;
   text-align: left;
+}
+#services h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.6rem;
+  background-color: #bc2e2e;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  margin: -2rem 0 0 0;
 }
 
 /* Team */
@@ -64,7 +85,7 @@
   font-size: 1.6rem;
   background-color: black;
   width: auto;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   display: inline-block;
   margin: -2rem 0 0 0;
 }
@@ -77,13 +98,18 @@
 
 #portfolio {
   background-color: hsla(30, 22%, 80%, 1);
+  background-image: url(../images/bamboo.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-position-x: 130%;
   flex-wrap: wrap;
+  padding-right: 33.3333%;
 }
 #portfolio > div section {
   flex-wrap: wrap;
 }
 #portfolio > div section > div {
-  width: 33.33333%;
+  width: 50%;
 }
 #portfolio figure {
   background: url(../images/avatar-bg.png) no-repeat center center;
@@ -97,7 +123,8 @@
 /* Engage */
 
 #engage {
-  background-color: hsla(210, 50%, 0%, 1);
+  background-color: hsla(210, 50%, 100%, 1);
+  color: hsla(210, 50%, 0%, 1);
 }
 #contact {
   background-color: hsla(160, 50%, 50%, 1);
