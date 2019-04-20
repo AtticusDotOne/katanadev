@@ -5,9 +5,9 @@
                 <nav>
                     <ul>
                         <li>
-                            <a id="introBtn" href="#intro">
+                            <button id="introBtn" @click="scrollto('#intro')">
                                 <img src="favicon-16x16.png"> Katana
-                            </a>
+                            </button>
                         </li>
                     </ul>
                 </nav>
@@ -69,69 +69,6 @@
                         <p>Experienced. Streamlined. Aggressive.</p>
                     </div>
                     <Team :members="team"/>
-                </div>
-            </section>
-            <section id="portfolio">
-                <div>
-                    <div>
-                        <h2>Portfolio</h2>
-                    </div>
-                    <section>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src alt>
-                                </figure>
-                                <h3>[Private]</h3>
-                                <h4>Property Management System</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src alt>
-                                </figure>
-                                <h3>TZ Ninja</h3>
-                                <h4>Timezone Management</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src alt>
-                                </figure>
-                                <h3>Cryptique</h3>
-                                <h4>Cryptocurrency Exchange Arbitrage</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src alt>
-                                </figure>
-                                <h3>Kasai</h3>
-                                <h4>Hosting Service</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src alt>
-                                </figure>
-                                <h3>Daimyo</h3>
-                                <h4>App Management System</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src alt>
-                                </figure>
-                                <h3>Cryptique</h3>
-                                <h4>Cryptocurrency Arbitrage</h4>
-                            </div>
-                        </div>
-                    </section>
                 </div>
             </section>
             <section id="engage">
@@ -199,11 +136,6 @@ export default {
                     { id: 'missionBtn', href: '#mission', label: 'Mission' },
                     { id: 'servicesBtn', href: '#services', label: 'Services' },
                     { id: 'teamBtn', href: '#team', label: 'Team' },
-                    {
-                        id: 'portfolioBtn',
-                        href: '#portfolio',
-                        label: 'Portfolio'
-                    },
                     { id: 'engageBtn', href: '#engage', label: 'Engage' }
                 ]
             },
@@ -319,6 +251,12 @@ export default {
                 'Fees are generally calculated on a $200/hour basis',
                 'We may consider discounts for equity stake'
             ]
+        }
+    },
+    methods: {
+        scrollto(href) {
+            console.log(href)
+            TweenMax.to(window, 2, { scrollTo: href, ease: Power4.easeOut })
         }
     }
 }
