@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <section>
     <TeamMember v-for="(item, index) in members" :key="index"
-    :image="item.image"
-    :name="item.name"
-    :bio="item.bio"
+      :image="item.image"
+      :name="item.name"
+      :bio="item.bio"
+      :title="item.title"
     />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -16,7 +17,7 @@ export default {
     TeamMember
   },
   props: {
-    members: {type: Array, required: false, default: []}
+    members: {type: Array, required: true}
   }
 }
 </script>

@@ -1,7 +1,10 @@
 <template>
   <div>
-    <img :src="image" />
-    <h2>{{ name }}</h2>
+    <figure>
+      <img :src="image" alt>
+    </figure>
+    <h3>{{ name }}</h3>
+    <h4>{{ title }}</h4>
     <p>{{ bio }}</p>
   </div>
 </template>
@@ -11,6 +14,7 @@ export default {
   props: {
     name: String,
     image: String,
+    title: String,
     bio: String
   }
 }

@@ -214,35 +214,7 @@
                         <h2>The Katana Team</h2>
                         <p>Experienced. Streamlined. Aggressive.</p>
                     </div>
-                    <section>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src="images/yuri-nagano.png" alt>
-                                </figure>
-                                <h3>Yuri Nagano</h3>
-                                <h4>Financial</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src="images/sam-bourque.png" alt>
-                                </figure>
-                                <h3>Sam Bourque</h3>
-                                <h4>Director</h4>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src="images/troy-martz.png" alt>
-                                </figure>
-                                <h3>Troy Martz</h3>
-                                <h4>Creative</h4>
-                            </div>
-                        </div>
-                    </section>
+                    <Team :members="team"/>
                 </div>
             </section>
             <section id="portfolio">
@@ -354,27 +326,15 @@
     </div>
 </template>
 
-
-
-
 <script>
+import Team from '@/components/Team'
+
 export default {
+  components: {
+    Team
+  },
     data() {
         return {
-            avatars: [
-                {
-                    name: 'yuri',
-                    src: 'images/yuri-nagano.png'
-                },
-                {
-                    name: 'sam',
-                    src: 'images/sam-bourque.png'
-                },
-                {
-                    name: 'troy',
-                    src: 'images/troy-martz.png'
-                }
-            ],
             title: 'Katana Software Development',
             mission: [
                 'Bring the latest and greatest technologies',
@@ -417,22 +377,22 @@ export default {
             ],
             team: [
                 {
-                    image: '',
-                    name: 'Samuel Bourque',
-                    position: 'Director',
-                    bio: ''
-                },
-                {
-                    image: '',
-                    name: 'Troy Martz',
-                    position: 'Designer',
-                    bio: ''
-                },
-                {
-                    image: '',
+                    image: 'images/yuri-nagano.png',
                     name: 'Yuri Nagano',
-                    position: 'Accountant / Translator',
-                    bio: ''
+                    title: 'Finance',
+                    bio: 'Money money money'
+                },
+                {
+                    image: 'images/sam-bourque.png',
+                    name: 'Samuel Bourque',
+                    title: 'Direction',
+                    bio: 'Making things work'
+                },
+                {
+                    image: 'images/troy-martz.png',
+                    name: 'Troy Martz',
+                    title: 'Design',
+                    bio: 'Making magic real'
                 }
             ],
             skillset: [
