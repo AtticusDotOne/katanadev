@@ -207,17 +207,17 @@ code {
   tab-size: 3rem;
 }
 button {
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
   margin: 2rem 0;
-  border-radius: 0.25rem;
+  border-radius: 0rem;
   outline: none;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 400;
   border: none;
   cursor: pointer;
   transition: all 0.1s;
-  background-color: hsla(191, 88%, 36%, 1);
-  border-radius: 0.5rem;
+  background-color: hsla(0, 60%, 45%, 1);
+  border-radius: 0rem;
   color: white;
   transition: all 0.15s;
 }

@@ -5,7 +5,9 @@
                 <nav>
                     <ul>
                         <li>
-                            <a id="introBtn" href="#intro">Katana</a>
+                            <a id="introBtn" href="#intro">
+                                <img src="favicon-16x16.png"> Katana
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -293,10 +295,10 @@
                             turpis non, placerat sem.
                         </p>
                         <h3>Give Us a Call:</h3>
-                        <h2>
-                            <i class="fal fa-mobile-android-alt"></i> (619) 884-0677
-                        </h2>
-                        <button>Send Us An Email</button>
+                        <h2>(619) 884-0677</h2>
+                        <button>
+                            <i class="fal fa-envelope"></i> Send Us An Email
+                        </button>
                     </div>
                 </div>
             </section>

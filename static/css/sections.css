@@ -132,6 +132,9 @@
 #engage h2 {
   color: hsla(0, 60%, 45%, 1);
 }
+#engage button i {
+  margin-right: 1rem;
+}
 
 /* Footer */
 
