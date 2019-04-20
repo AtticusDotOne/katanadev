@@ -363,12 +363,12 @@ export default {
         return {
             avatars: [
                 {
-                    name: 'sam',
-                    src: 'images/sam-bourque.png'
-                },
-                {
                     name: 'yuri',
                     src: 'images/yuri-nagano.png'
+                },
+                {
+                    name: 'sam',
+                    src: 'images/sam-bourque.png'
                 },
                 {
                     name: 'troy',
