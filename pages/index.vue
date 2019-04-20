@@ -116,7 +116,6 @@ export default {
     data() {
         return {
             menus: {
-                topleft: [{ id: 'introBtn', href: '#intro', label: 'Katana' }],
                 topmiddle: [
                     { id: 'missionBtn', href: '#mission', label: 'Mission' },
                     { id: 'servicesBtn', href: '#services', label: 'Services' },
