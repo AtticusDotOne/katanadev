@@ -42,7 +42,8 @@
 /* Mission */
 
 #mission {
-  background-color: hsla(300, 50%, 0%, 1);
+  background-color: hsla(0, 0%, 0%, 1);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 /* Services */
@@ -70,7 +71,7 @@
   color: #fff;
   font-weight: 300;
   font-size: 1.6rem;
-  background-color: #bc2e2e;
+  background-color: hsla(0, 60%, 45%, 1);
   width: 100%;
   padding: 0.5rem 1.5rem;
   display: inline-block;
@@ -80,7 +81,7 @@
 /* Team */
 
 #team {
-  background-color: #bc2e2e;
+  background-color: hsla(0, 60%, 45%, 1);
   color: #fff;
 }
 #team h4 {
@@ -129,8 +130,8 @@
   background-color: hsla(210, 50%, 100%, 1);
   color: hsla(210, 50%, 0%, 1);
 }
-#contact {
-  background-color: hsla(160, 50%, 50%, 1);
+#engage h2 {
+  color: hsla(0, 60%, 45%, 1);
 }
 
 /* Footer */
@@ -263,4 +264,6 @@
 #intro {
   padding-top: 5rem;
   background-color: hsla(210, 50%, 100%, 1);
+}
+#intro img {
 }
