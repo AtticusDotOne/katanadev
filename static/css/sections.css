@@ -111,12 +111,14 @@
 #portfolio > div section {
   flex-wrap: wrap;
 }
+#portfolio section > div > div {
+  background: white;
+  margin: 1.5rem;
+}
 #portfolio > div section > div {
   width: 33.33333%;
 }
 #portfolio figure {
-  background: url(../images/avatar-bg.png) no-repeat center center;
-  background-size: contain;
 }
 #portfolio h2,
 #portfolio h3 {
