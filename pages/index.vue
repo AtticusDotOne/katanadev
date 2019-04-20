@@ -35,17 +35,11 @@
                 <div>
                     <div>
                         <h2>The Katana Mission</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam
-                            arcu, ornare vel ante non, imperdiet scelerisque turpis. Nulla
-                            at enim nec erat pulvinar commodo. Maecenas eu efficitur enim,
-                            eget malesuada mauris. Donec dictum odio dui, ut posuere dolor
-                            aliquam quis. Vivamus at sagittis mi. Fusce nec massa lacinia,
-                            sodales felis ac, aliquam orci. In commodo efficitur neque. Sed
-                            sit amet maximus nulla. Morbi in scelerisque lorem, suscipit
-                            fermentum sem. Etiam id ante sit amet ipsum accumsan cursus quis
-                            nec turpis.
-                        </p>
+                        <ul>
+                            <li>To produce high quality software that empowers our clients' business</li>
+                            <li>To deliver under-budget and ahead-of-schedule--every time</li>
+                            <li>To raise the bar for user experience in every industry</li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -75,12 +69,7 @@
                 <div>
                     <div>
                         <h2>Let's Do Business!</h2>
-                        <p>
-                            Donec efficitur dolor orci, sed mattis orci aliquam quis.
-                            Maecenas porttitor convallis purus, nec luctus ligula
-                            ullamcorper sit amet. Pellentesque ut ipsum accumsan, volutpat
-                            turpis non, placerat sem.
-                        </p>
+                        <p></p>
                     </div>
                 </div>
             </section>
@@ -204,41 +193,6 @@ export default {
                     name: 'Troy Martz',
                     title: 'Design',
                     bio: 'Making magic real'
-                }
-            ],
-            skillset: [
-                'HTML',
-                'C',
-                'C++',
-                'Javascript',
-                'Vue.js',
-                'Nuxt',
-                'Cryptocurrency',
-                'Smart Contracts',
-                'Ethereum',
-                'Solidity',
-                'EOS',
-                'Bitcoin',
-                'Python',
-                'Ruby',
-                'CSS',
-                'Greensock',
-                'SEO'
-            ],
-            portfolio: [
-                {
-                    image: '',
-                    caption: 'Audit Property Management',
-                    description:
-                        'Mobile-first web application to manage properies, tenants and every aspect of its management',
-                    link: 'www.yahoo.com'
-                },
-                {
-                    image: '',
-                    caption: 'TZ Ninja',
-                    description:
-                        'Mobile-first web application to manage teams across timezones',
-                    link: 'www.google.com'
                 }
             ],
             fees: [
