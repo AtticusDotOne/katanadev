@@ -7,7 +7,7 @@
 <script>
 export default {
   props: {
-    text: {type: Array, required: true, default: ["[Nothing to show]"]}
+    text: {type: Array, required: true}
   }
 }
 </script>

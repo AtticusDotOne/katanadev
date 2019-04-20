@@ -9,9 +9,9 @@
 <script>
 export default {
   props: {
-    name: String, // eslint-disable-line
-    image: String, // eslint-disable-line
-    bio: String // eslint-disable-line
+    name: String,
+    image: String,
+    bio: String
   }
 }
 </script>

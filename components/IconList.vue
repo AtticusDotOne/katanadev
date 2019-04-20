@@ -17,7 +17,7 @@ export default {
     IconItem
   },
   props: {
-    itemlist: {type: Array, required: false, default: []}
+    itemlist: {type: Array, required: true}
   }
 }
 </script>

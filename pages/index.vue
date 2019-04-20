@@ -1,9 +1,5 @@
 <template>
-    <!-- Start: App -->
-
     <div id="app">
-        <!-- Start: Navigation -->
-
         <header id="nav">
             <section>
                 <nav>
@@ -43,12 +39,7 @@
                 </nav>
             </section>
         </header>
-
-        <!-- End: Navigation | Start: Main -->
-
         <main id="main">
-            <!-- Start: Intro -->
-
             <section id="intro" style="position:relative">
                 <div>
                     <div>
@@ -58,9 +49,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- End: Intro | Start: Mission -->
-
             <section id="mission">
                 <div>
                     <div>
@@ -79,9 +67,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- End: Mission | Start: Services -->
-
             <section id="services">
                 <div>
                     <section>
@@ -223,9 +208,6 @@
                     </section>
                 </div>
             </section>
-
-            <!-- End: Services | Start: Team -->
-
             <section id="team">
                 <div>
                     <div>
@@ -263,9 +245,6 @@
                     </section>
                 </div>
             </section>
-
-            <!-- End: Team | Start: Portfolio -->
-
             <section id="portfolio">
                 <div>
                     <div>
@@ -329,9 +308,6 @@
                     </section>
                 </div>
             </section>
-
-            <!-- End: Portfolio | Start: Engage -->
-
             <section id="engage">
                 <div>
                     <div>
@@ -350,12 +326,7 @@
                     </div>
                 </div>
             </section>
-
-            <!-- End: Engage -->
         </main>
-
-        <!-- End: Main | Start: Footer -->
-
         <footer id="footer">
             <section>
                 <div>
@@ -365,24 +336,6 @@
                 </div>
             </section>
         </footer>
-
-        <!-- End: Footer | Begin: Navigator -->
-
-        <!--    
-      <aside id="navigator">
-        <section>
-          <nav>
-            <ul>
-              <li><a href="#">help</a></li>
-              <li><a href="#">top</a></li>
-              <li><a href="#">previous</a></li>
-              <li><a href="#">next</a></li>
-            </ul>
-          </nav>
-        </section>
-      </aside>
-        -->
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/ScrollToPlugin.min.js"
@@ -405,11 +358,6 @@
 
 
 <script>
-//import Splash from '@/components/Splash'
-//import IconList from '@/components/IconList'
-//import Team from '@/components/Team'
-//import TextShow from '@/components/TextShow'
-
 export default {
     data() {
         return {

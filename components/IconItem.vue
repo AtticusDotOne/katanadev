@@ -16,10 +16,10 @@
 <script>
 export default {
   props: {
-    caption: String, // eslint-disable-line
-    image: String, // eslint-disable-line
-    description: String, // eslint-disable-line
-    link: { type: String, required: false, default: ''} // eslint-disable-line
+    caption: String,
+    image: String,
+    description: String,
+    link: { type: String, required: true}
   }
 }
 </script>
