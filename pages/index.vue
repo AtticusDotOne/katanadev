@@ -49,7 +49,7 @@
                         <div>
                             <div>
                                 <h2>Katana Services</h2>
-                                <h3>Our Expertise In Software Development</h3>
+                                <h3>Our Expertise in Software Development</h3>
                             </div>
                         </div>
                     </section>
