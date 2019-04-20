@@ -11,25 +11,7 @@
                         </li>
                     </ul>
                 </nav>
-                <nav>
-                    <ul>
-                        <li>
-                            <a id="missionBtn" href="#mission">Mission</a>
-                        </li>
-                        <li>
-                            <a id="servicesBtn" href="#services">Services</a>
-                        </li>
-                        <li>
-                            <a id="teamBtn" href="#team">Team</a>
-                        </li>
-                        <li>
-                            <a id="portfolioBtn" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a id="engageBtn" href="#engage">Engage</a>
-                        </li>
-                    </ul>
-                </nav>
+              <Menu :items="menus['topmiddle']" />
                 <nav>
                     <ul>
                         <li>
@@ -332,13 +314,27 @@
 
 <script>
 import Team from '@/components/Team'
+import Menu from '@/components/Menu'
 
 export default {
   components: {
-    Team
+    Team,
+    Menu
   },
     data() {
         return {
+          menus: {
+            topleft: [
+              {id: "introBtn", href: "#intro", label: "Katana"}
+            ],
+            topmiddle: [
+              {id: "missionBtn", href: "#mission", label: "Mission"},
+              {id: "servicesBtn", href: "#services", label: "Services"},
+              {id: "teamBtn", href: "#team", label: "Team"},
+              {id: "portfolioBtn", href: "#portfolio", label: "Portfolio"},
+              {id: "engageBtn", href: "#engage", label: "Engage"}
+            ],
+          },
             title: 'Katana Software Development',
             mission: [
                 'Bring the latest and greatest technologies',
