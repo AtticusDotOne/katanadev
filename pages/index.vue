@@ -49,7 +49,7 @@
                         <div>
                             <div>
                                 <h2>Katana Services</h2>
-                                <h3>Our Expertise In Software Engineering</h3>
+                                <h3>Our Expertise In Software Development</h3>
                             </div>
                         </div>
                     </section>
@@ -68,8 +68,9 @@
             <section id="engage">
                 <div>
                     <div>
-                        <h2>Let's Do Business!</h2>
-                        <p></p>
+                        <h2>Become our client</h2>
+                        <p>We engage clients at all levels. We give no-nonsense quotes and delivery schedules that we commit without fail.</p>
+                        <p>Let's start a conversation. We look forward to leveling up your business edge.</p>
                     </div>
                 </div>
             </section>
@@ -78,7 +79,7 @@
             <section>
                 <div>
                     <div>
-                        <p>&copy; 2019 Katana Development Services. All Rights Reserved.</p>
+                        <p>&copy; 2019 Katana Development</p>
                     </div>
                 </div>
             </section>
@@ -128,18 +129,18 @@ export default {
                     icon: 'fal fa-balance-scale',
                     title: 'Software Automation',
                     items: [
-                        'Software Consulting',
-                        'End-to-end software automation',
-                        'Marketing automation'
+                        'Infrastructure Automation',
+                        'Hands-off Maintenance',
+                        'Streamlined Operations'
                     ]
                 },
                 {
                     icon: 'fal fa-balance-scale',
                     title: 'Custom Software Development',
                     items: [
-                        'Software Consulting',
-                        'Full-stack software development',
-                        'Progressive Web Applications'
+                        'General Software Consulting',
+                        'Code Audits',
+                        'Technology Feasibility Study'
                     ]
                 },
                 {
@@ -194,11 +195,6 @@ export default {
                     title: 'Design',
                     bio: 'Making magic real'
                 }
-            ],
-            fees: [
-                'Fees are determined on a case-by-case basis',
-                'Fees are generally calculated on a $200/hour basis',
-                'We may consider discounts for equity stake'
             ]
         }
     },
