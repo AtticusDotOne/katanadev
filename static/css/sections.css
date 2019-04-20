@@ -32,10 +32,9 @@
 #intro > section > div {
   margin: auto;
 }
-#intro svg {
+#intro img {
   max-height: 80vh;
-  max-width: 80%;
-  width: 80%;
+  max-width: 60%;
   height: auto;
 }
 
