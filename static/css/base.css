@@ -223,5 +223,5 @@ button {
 }
 button:hover {
   transition: all 0s;
-  background-color: hsla(191, 88%, 46%, 1);
+  background-color: hsla(0, 80%, 45%, 1);
 }
