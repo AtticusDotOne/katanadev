@@ -15,8 +15,8 @@
                 <nav>
                     <ul>
                         <li>
-                            <a id="phone" tel="+16198840677">
-                                <i class="fal fa-mobile-android-alt"></i> (619) 884-0677
+                            <a id="email" href="mailto:info@katanadev.com">
+                                info@katanadev.com
                             </a>
                         </li>
                     </ul>
@@ -81,11 +81,6 @@
                             ullamcorper sit amet. Pellentesque ut ipsum accumsan, volutpat
                             turpis non, placerat sem.
                         </p>
-                        <h3>Give Us a Call:</h3>
-                        <h2>(619) 884-0677</h2>
-                        <button>
-                            <i class="fal fa-envelope"></i> Send Us An Email
-                        </button>
                     </div>
                 </div>
             </section>
