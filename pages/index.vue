@@ -11,7 +11,7 @@
                         </li>
                     </ul>
                 </nav>
-              <Menu :items="menus['topmiddle']" />
+                <Menu :items="menus['topmiddle']"/>
                 <nav>
                     <ul>
                         <li>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </section>
-                    <Services :services="services" />
+                    <Services :services="services"/>
                 </div>
             </section>
             <section id="team">
@@ -186,78 +186,76 @@ import Menu from '@/components/Menu'
 import Services from '@/components/Services'
 
 export default {
-  components: {
-    Team,
-    Menu,
-    Services
-  },
+    components: {
+        Team,
+        Menu,
+        Services
+    },
     data() {
         return {
-          menus: {
-            topleft: [
-              {id: "introBtn", href: "#intro", label: "Katana"}
-            ],
-            topmiddle: [
-              {id: "missionBtn", href: "#mission", label: "Mission"},
-              {id: "servicesBtn", href: "#services", label: "Services"},
-              {id: "teamBtn", href: "#team", label: "Team"},
-              {id: "portfolioBtn", href: "#portfolio", label: "Portfolio"},
-              {id: "engageBtn", href: "#engage", label: "Engage"}
-            ],
-          },
+            menus: {
+                topleft: [{ id: 'introBtn', href: '#intro', label: 'Katana' }],
+                topmiddle: [
+                    { id: 'missionBtn', href: '#mission', label: 'Mission' },
+                    { id: 'servicesBtn', href: '#services', label: 'Services' },
+                    { id: 'teamBtn', href: '#team', label: 'Team' },
+                    {
+                        id: 'portfolioBtn',
+                        href: '#portfolio',
+                        label: 'Portfolio'
+                    },
+                    { id: 'engageBtn', href: '#engage', label: 'Engage' }
+                ]
+            },
             services: [
                 {
                     icon: 'fal fa-balance-scale',
                     title: 'Software Automation',
                     items: [
-                      'Software Consulting',
-                      'End-to-end software automation',
-                      'Marketing automation'
+                        'Software Consulting',
+                        'End-to-end software automation',
+                        'Marketing automation'
                     ]
                 },
                 {
                     icon: 'fal fa-balance-scale',
                     title: 'Custom Software Development',
                     items: [
-                      'Software Consulting',
-                      'Full-stack software development',
-                      'Progressive Web Applications'
+                        'Software Consulting',
+                        'Full-stack software development',
+                        'Progressive Web Applications'
                     ]
                 },
                 {
                     icon: 'fal fa-balance-scale',
                     title: 'Web Application Development',
                     items: [
-                      'Progressive Web Applications',
-                      'Responsive User Experience',
-                      'Appealing and Adaptive Designs'
+                        'Progressive Web Applications',
+                        'Responsive User Experience',
+                        'Appealing and Adaptive Designs'
                     ]
                 },
                 {
                     icon: 'fal fa-balance-scale',
                     title: 'Cryptocurrencies & Blockchain',
-                    items: [
-                      'Trading Systems',
-                      'Analytics',
-                      'Feed Aggregators'
-                    ]
+                    items: ['Trading Systems', 'Analytics', 'Feed Aggregators']
                 },
                 {
                     icon: 'fal fa-balance-scale',
                     title: 'Mobile App Development',
                     items: [
-                      'Progressive Web Applications',
-                      'iOS App Development',
-                      'Android App Development'
+                        'Progressive Web Applications',
+                        'iOS App Development',
+                        'Android App Development'
                     ]
                 },
                 {
                     icon: 'fas fa-fish',
                     title: 'Online Marketing Systems',
                     items: [
-                      'Search Engine Optimization',
-                      'Marketing Management Systems',
-                      'Social Media Management'
+                        'Search Engine Optimization',
+                        'Marketing Management Systems',
+                        'Social Media Management'
                     ]
                 }
             ],
