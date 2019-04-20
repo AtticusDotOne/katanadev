@@ -61,6 +61,10 @@
 #services ul {
   flex-direction: column;
   text-align: left;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  margin: 1rem 0 1rem 3rem;
 }
 #services h4 {
   color: #fff;
@@ -127,6 +131,16 @@
 }
 #contact {
   background-color: hsla(160, 50%, 50%, 1);
+}
+
+/* Footer */
+
+#footer {
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(0, 0%, 0%, 1);
+}
+#footer p {
+  text-align: center;
 }
 
 /* ------------------------------ Articles */
