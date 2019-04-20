@@ -199,7 +199,6 @@ export default {
     },
     methods: {
         scrollto(href) {
-            console.log(href)
             TweenMax.to(window, 2, { scrollTo: href, ease: Power4.easeOut })
         }
     }
