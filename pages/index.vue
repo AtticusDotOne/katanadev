@@ -59,135 +59,7 @@
                             </div>
                         </div>
                     </section>
-                    <section>
-                        <div>
-                            <div>
-                                <h4>Software Automation</h4>
-                                <ul>
-                                    <li>Software Consulting</li>
-                                    <li>End-to-end software automation</li>
-                                    <li>Marketing automation</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Custom Software Development</h4>
-                                <ul>
-                                    <li>Software Consulting</li>
-                                    <li>Full-stack software development</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Web Application Development</h4>
-                                <ul>
-                                    <li>A</li>
-                                    <li>B</li>
-                                    <li>Restful API development</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Cryptocurrencies &amp; Blockchain</h4>
-                                <ul>
-                                    <li>Cryptocurrency Exchanges</li>
-                                    <li>Cryptocurrency Wallets</li>
-                                    <li>Smart Contracts (Solidity)</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>AI &amp; Machine Learning</h4>
-                                <ul>
-                                    <li>A</li>
-                                    <li>B</li>
-                                    <li>C</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Big Data</h4>
-                                <ul>
-                                    <li>A</li>
-                                    <li>B</li>
-                                    <li>C</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Internet of Things</h4>
-                                <ul>
-                                    <li>A</li>
-                                    <li>B</li>
-                                    <li>C</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>Business Intelligence</h4>
-                                <ul>
-                                    <li>A</li>
-                                    <li>B</li>
-                                    <li>C</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>
-                                    <i class="fas fa-fish"></i> Online Marketing Systems
-                                </h4>
-                                <ul>
-                                    <li>Search Engine Optimization (SEO)</li>
-                                    <li>Marketing Management Systems</li>
-                                    <li>Social Media Management</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>
-                                    <i class="fal fa-balance-scale"></i> Mobile App Development
-                                </h4>
-                                <ul>
-                                    <li>iOS app development</li>
-                                    <li>Android app development</li>
-                                    <li>OS app development</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>
-                                    <i class="fal fa-balance-scale"></i> Real-Time Communications
-                                </h4>
-                                <ul>
-                                    <li>VoIP Systems</li>
-                                    <li>Video Broadcasting/Streaming Systems</li>
-                                    <li>Real-time Chat Applications</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h4>
-                                    <i class="fal fa-balance-scale"></i> Mission-Critical Applications
-                                </h4>
-                                <ul>
-                                    <li>Financial Trading Systems</li>
-                                    <li>Banking &amp; Healthcare Software</li>
-                                    <li>M</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
+                    <Services :services="services" />
                 </div>
             </section>
             <section id="team">
@@ -311,11 +183,13 @@
 <script>
 import Team from '@/components/Team'
 import Menu from '@/components/Menu'
+import Services from '@/components/Services'
 
 export default {
   components: {
     Team,
-    Menu
+    Menu,
+    Services
   },
     data() {
         return {
@@ -331,44 +205,60 @@ export default {
               {id: "engageBtn", href: "#engage", label: "Engage"}
             ],
           },
-            title: 'Katana Software Development',
-            mission: [
-                'Bring the latest and greatest technologies',
-                'Experienced. Streamlined. Aggressive.',
-                'Undercutting our competitors, overdelivering to our clients'
-            ],
             services: [
                 {
-                    image: '',
-                    caption: 'Website',
-                    description:
-                        'Develop and design a web site or web application'
+                    icon: 'fal fa-balance-scale',
+                    title: 'Software Automation',
+                    items: [
+                      'Software Consulting',
+                      'End-to-end software automation',
+                      'Marketing automation'
+                    ]
                 },
                 {
-                    image: '',
-                    caption: 'Mobile Application',
-                    description: 'Develop and design a mobile application'
+                    icon: 'fal fa-balance-scale',
+                    title: 'Custom Software Development',
+                    items: [
+                      'Software Consulting',
+                      'Full-stack software development',
+                      'Progressive Web Applications'
+                    ]
                 },
                 {
-                    image: '',
-                    caption: 'Support',
-                    description:
-                        'Administer and maintain developed applications'
+                    icon: 'fal fa-balance-scale',
+                    title: 'Web Application Development',
+                    items: [
+                      'Progressive Web Applications',
+                      'Responsive User Experience',
+                      'Appealing and Adaptive Designs'
+                    ]
                 },
                 {
-                    image: '',
-                    caption: 'Marketing',
-                    description: 'Promote your site or application'
+                    icon: 'fal fa-balance-scale',
+                    title: 'Cryptocurrencies & Blockchain',
+                    items: [
+                      'Trading Systems',
+                      'Analytics',
+                      'Feed Aggregators'
+                    ]
                 },
                 {
-                    image: '',
-                    caption: 'Copywriting',
-                    description: 'Draft content for your site'
+                    icon: 'fal fa-balance-scale',
+                    title: 'Mobile App Development',
+                    items: [
+                      'Progressive Web Applications',
+                      'iOS App Development',
+                      'Android App Development'
+                    ]
                 },
                 {
-                    image: '',
-                    caption: 'Translation',
-                    description: 'Internationalize your content'
+                    icon: 'fas fa-fish',
+                    title: 'Online Marketing Systems',
+                    items: [
+                      'Search Engine Optimization',
+                      'Marketing Management Systems',
+                      'Social Media Management'
+                    ]
                 }
             ],
             team: [
