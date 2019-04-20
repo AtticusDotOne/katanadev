@@ -27,7 +27,7 @@
             <section id="intro" style="position:relative">
                 <div>
                     <div>
-                        <img src="images/logo.png">
+                        <img src="images/logo.svg">
                     </div>
                 </div>
             </section>
