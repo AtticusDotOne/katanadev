@@ -82,6 +82,12 @@
   margin: -2rem 0 0 0;
 }
 
+@media screen and (max-width: 760px) {
+  #services > div > section:nth-of-type(2) > div {
+    width: 100%;
+  }
+}
+
 /* Team */
 
 #team {
