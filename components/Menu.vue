@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="menu">
         <ul>
             <li v-for="item in items" :key="item.id">
                 <button :id="item.id" @click="scrollto(item.href)">{{ item.label }}</button>

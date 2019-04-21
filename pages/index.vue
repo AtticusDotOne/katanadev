@@ -5,8 +5,13 @@
                 <nav>
                     <ul>
                         <li>
+                            <button id="introBtn" @click="openmenu">
+                                <i class="fal fa-bars"></i>
+                            </button>
+                        </li>
+                        <li>
                             <button id="introBtn" @click="scrollto('#intro')">
-                                <img src="favicon-16x16.png"> Katana
+                                <img src="favicon-16x16.png">&nbsp;Katana
                             </button>
                         </li>
                     </ul>
@@ -15,9 +20,14 @@
                 <nav>
                     <ul>
                         <li>
-                            <a id="email" href="mailto:info@katanadev.com">
-                                info@katanadev.com
-                            </a>
+                            <button id="email" tel="+16198840677">
+                                <i class="fas fa-mobile-alt"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <button id="email" href="mailto:info@katanadev.com">
+                                <i class="fas fa-envelope"></i>&nbsp;Contact
+                            </button>
                         </li>
                     </ul>
                 </nav>
@@ -201,6 +211,7 @@ export default {
         scrollto(href) {
             TweenMax.to(window, 2, { scrollTo: href, ease: Power4.easeOut })
         }
-    }
+    },
+    openmenu() {}
 }
 </script>

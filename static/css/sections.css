@@ -37,6 +37,13 @@
   max-width: 60%;
   height: auto;
 }
+@media screen and (max-width: 760px) {
+  #intro img {
+    max-height: 90vh;
+    max-width: 90%;
+    height: auto;
+  }
+}
 
 /* Mission */
 
@@ -83,6 +90,9 @@
 }
 
 @media screen and (max-width: 760px) {
+  #services > div > section:nth-of-type(2) {
+    flex-wrap: wrap;
+  }
   #services > div > section:nth-of-type(2) > div {
     width: 100%;
   }
@@ -107,6 +117,17 @@
 #team figure {
   background: url(../images/avatar-bg.png) no-repeat center center;
   background-size: contain;
+}
+@media screen and (max-width: 760px) {
+  #team > div > section {
+    flex-wrap: wrap;
+  }
+  #team > div > section > div {
+    width: 100%;
+  }
+  #team > div > section > div:first-of-type {
+    order: 1;
+  }
 }
 
 /* Portfolio */
@@ -177,6 +198,7 @@
   position: fixed;
   top: 0;
   z-index: 300;
+  border-bottom: 0.1rem solid hsla(0, 0%, 0%, 0.05);
 }
 #app > header > section {
   flex-direction: row;

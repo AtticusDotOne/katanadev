@@ -73,6 +73,13 @@ module.exports = {
           'sha384-4HqGlagEHMyfaDQVabl1wx7GCtGw6hDl3sKJEhqQjOCrXrvizhaA2j4hK8Piewtr'
       },
       {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css',
+        integrity:
+          'sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf',
+        crossorigin: 'anonymous'
+      },
+      {
         href: 'https://pro.fontawesome.com/releases/v5.8.1/css/light.css',
         rel: 'stylesheet',
         type: 'text/css',
