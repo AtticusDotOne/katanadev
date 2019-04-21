@@ -180,7 +180,7 @@ export default {
                     image: 'images/yuri-nagano.png',
                     name: 'Yuri Nagano',
                     title: 'Finance',
-                    bio: 'Money money money'
+                    bio: 'Making it count'
                 },
                 {
                     image: 'images/sam-bourque.png',
