@@ -28,3 +28,20 @@
 #app > header > section > nav button {
   display: flex !important;
 }
+#nav > section > nav > ul > li > #introBtn {
+  padding: 0.75rem 1.5rem;
+}
+#introBtn img {
+  width: 100%;
+  height: auto;
+  max-height: 3rem;
+  max-width: 3rem;
+}
+#nav > section > nav > ul > li > #introBtn b {
+  display: inline-block;
+  padding: 0.75rem 1rem 1rem;
+  font-weight: 600;
+  font-family: alice, georgia, serif;
+  letter-spacing: -0.1rem;
+  font-size: 2rem;
+}

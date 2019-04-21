@@ -5,13 +5,14 @@
                 <nav>
                     <ul>
                         <li>
-                            <button id="introBtn" @click="openmenu">
+                            <button @click="openmenu">
                                 <i class="fal fa-bars"></i>
                             </button>
                         </li>
                         <li>
                             <button id="introBtn" @click="scrollto('#intro')">
-                                <img src="favicon-16x16.png">&nbsp;Katana
+                                <img src="images/icon.svg">
+                                <b>Katana</b>
                             </button>
                         </li>
                     </ul>
@@ -135,7 +136,7 @@ export default {
             },
             services: [
                 {
-                    icon: 'fal fa-balance-scale',
+                    icon: 'fal fa-network-wired',
                     title: 'Software Automation',
                     items: [
                         'Infrastructure Automation',
