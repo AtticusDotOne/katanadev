@@ -71,7 +71,7 @@
                 <div>
                     <div>
                         <h2>The Katana Team</h2>
-                        <p>Experienced. Streamlined. Aggressive.</p>
+                        <h3>Experienced. Streamlined. Aggressive.</h3>
                     </div>
                     <Team :members="team"/>
                 </div>
