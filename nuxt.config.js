@@ -27,40 +27,40 @@ module.exports = {
       },
       {
         rel: 'stylesheet',
-        href: 'css/reset.css'
+        href: '/css/reset.css'
       },
       {
-        href: 'css/base.css',
+        href: '/css/base.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/fire.css',
+        href: '/css/fire.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/sections.css',
+        href: '/css/sections.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/forms.css',
+        href: '/css/forms.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/navs.css',
+        href: '/css/navs.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/lists.css',
+        href: '/css/lists.css',
         rel: 'stylesheet',
         type: 'text/css'
       },
       {
-        href: 'css/theme.css',
+        href: '/css/theme.css',
         rel: 'stylesheet',
         type: 'text/css'
       },

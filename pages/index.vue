@@ -130,7 +130,7 @@ export default {
                     ]
                 },
                 {
-                    icon: 'fal fa-balance-scale',
+                    icon: 'fal fa-window',
                     title: 'Custom Software Development',
                     items: [
                         'General Software Consulting',
@@ -139,7 +139,7 @@ export default {
                     ]
                 },
                 {
-                    icon: 'fal fa-balance-scale',
+                    icon: 'fal fa-code',
                     title: 'Web Application Development',
                     items: [
                         'Progressive Web Applications',
@@ -148,12 +148,12 @@ export default {
                     ]
                 },
                 {
-                    icon: 'fal fa-balance-scale',
+                    icon: 'fal fa-project-diagram',
                     title: 'Cryptocurrencies & Blockchain',
                     items: ['Trading Systems', 'Analytics', 'Feed Aggregators']
                 },
                 {
-                    icon: 'fal fa-balance-scale',
+                    icon: 'fal fa-mobile',
                     title: 'Mobile App Development',
                     items: [
                         'Progressive Web Applications',
@@ -162,7 +162,7 @@ export default {
                     ]
                 },
                 {
-                    icon: 'fas fa-fish',
+                    icon: 'fal fa-analytics',
                     title: 'Online Marketing Systems',
                     items: [
                         'Search Engine Optimization',
@@ -196,8 +196,13 @@ export default {
     methods: {
         scrollto(href) {
             TweenMax.to(window, 2, { scrollTo: href, ease: Power4.easeOut })
+        },
+        openmenu() {
+            TweenMax.to('.menu', 0.2, { x: '100%' })
+        },
+        closemenu() {
+            TweenMax.to('.menu', 0.2, { x: '0%' })
         }
-    },
-    openmenu() {}
+    }
 }
 </script>

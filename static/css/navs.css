@@ -15,11 +15,13 @@
   }
   #app > header > section > nav:nth-of-type(2) > ul {
     flex-direction: column;
-    background: #ddd;
-    border: 0.1rem solid #bbb;
+    background: #000;
+    border: 0rem solid #fff;
   }
   #app > header > section > nav:nth-of-type(2) > ul > li > button {
     padding: 1.5rem;
+    color: #fff;
+    width: 100%;
   }
   #app > header > section > nav:nth-of-type(1) > ul > li:first-child {
     display: inline-block;
