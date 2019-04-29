@@ -1,0 +1,47 @@
+#nav > section > nav {
+  margin: 0;
+}
+#nav > section > nav > ul > li > button {
+  font-size: 1.6rem !important;
+}
+#app > header > section > nav:nth-of-type(1) > ul > li:first-child {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  #app > header > section > nav:nth-of-type(2) {
+    position: absolute;
+    top: 5rem;
+    right: 100%;
+  }
+  #app > header > section > nav:nth-of-type(2) > ul {
+    flex-direction: column;
+    background: #ddd;
+    border: 0.1rem solid #bbb;
+  }
+  #app > header > section > nav:nth-of-type(2) > ul > li > button {
+    padding: 1.5rem;
+  }
+  #app > header > section > nav:nth-of-type(1) > ul > li:first-child {
+    display: inline-block;
+  }
+}
+#app > header > section > nav button {
+  display: flex !important;
+}
+#nav > section > nav > ul > li > #introBtn {
+  padding: 0.75rem 1.5rem;
+}
+#introBtn img {
+  width: 100%;
+  height: auto;
+  max-height: 3rem;
+  max-width: 3rem;
+}
+#nav > section > nav > ul > li > #introBtn b {
+  display: inline-block;
+  padding: 0.75rem 1rem 1rem;
+  font-weight: 600;
+  font-family: alice, georgia, serif;
+  letter-spacing: -0.1rem;
+  font-size: 2rem;
+}

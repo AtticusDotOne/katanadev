@@ -87,6 +87,43 @@ module.exports = {
         integrity:
           'sha384-3SMOAKCN8LYSMjkWz1ChDg4pHSLtD+LuKXaZoHxE1oyDneLR6Ebjm3XHMHO9fWu3'
       }
+    ],
+    script: [
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js'
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/ScrollToPlugin.min.js'
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js'
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/easing/EasePack.min.js'
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js'
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js'
+      },
+      {
+        src: '/js/jquery.js'
+      },
+      {
+        src: '/js/smooth.js'
+      },
+      {
+        src: '/js/scroll.js'
+      }
     ]
   },
 

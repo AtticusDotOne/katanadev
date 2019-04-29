@@ -1,0 +1,307 @@
+/* Main Page Sections */
+
+#main > section {
+  padding: 5rem inherit;
+}
+
+#intro,
+#mission,
+#services,
+#team,
+#portfolio,
+#engage,
+#contact {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem;
+  text-align: center;
+  color: hsla(0, 100%, 100%, 0.65);
+  justify-content: flex-start;
+}
+#main > *[id] > * div {
+  text-align: center;
+}
+
+#intro {
+  background-color: hsla(0, 50%, 50%, 1);
+}
+#intro section {
+  justify-content: center;
+  align-content: center;
+}
+#intro > section > div {
+  margin: auto;
+}
+#intro img {
+  max-height: 80vh;
+  max-width: 60%;
+  height: auto;
+}
+@media screen and (max-width: 760px) {
+  #intro img {
+    max-height: 90vh;
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+/* Mission */
+
+#mission {
+  background-color: hsla(0, 0%, 0%, 1);
+  color: hsla(0, 0%, 100%, 1);
+}
+#mission ul {
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+/* Services */
+
+#services {
+  background-color: hsla(0, 60%, 100%, 1);
+  color: black;
+  flex-wrap: wrap;
+}
+#services > div > section:nth-of-type(2) {
+  flex-wrap: wrap;
+}
+#services > div > section:nth-of-type(2) > div {
+  width: 33.33333%;
+}
+#services ul {
+  flex-direction: column;
+  text-align: left;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  margin: 1rem 0 1rem 3rem;
+}
+#services h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.6rem;
+  background-color: hsla(0, 60%, 45%, 1);
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  margin: -2rem 0 0 0;
+}
+
+@media screen and (max-width: 760px) {
+  #services > div > section:nth-of-type(2) {
+    flex-wrap: wrap;
+  }
+  #services > div > section:nth-of-type(2) > div {
+    width: 100%;
+  }
+}
+
+/* Team */
+
+#team {
+  background-color: hsla(0, 60%, 45%, 1);
+  color: #fff;
+}
+#team h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.6rem;
+  background-color: black;
+  width: auto;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  margin: -2rem 0 0 0;
+}
+#team figure {
+  background: url(../images/avatar-bg.png) no-repeat center center;
+  background-size: contain;
+}
+@media screen and (max-width: 760px) {
+  #team > div > section {
+    flex-wrap: wrap;
+  }
+  #team > div > section > div {
+    width: 100%;
+  }
+  #team > div > section > div:first-of-type {
+    order: 1;
+  }
+}
+
+/* Portfolio */
+
+#portfolio {
+  background-color: hsla(30, 22%, 80%, 1);
+  background-image: url(../images/bamboo.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-position-x: 130%;
+  flex-wrap: wrap;
+}
+#portfolio > div section {
+  flex-wrap: wrap;
+}
+#portfolio section > div > div {
+  background: white;
+  margin: 1.5rem;
+}
+#portfolio > div section > div {
+  width: 33.33333%;
+}
+#portfolio figure {
+}
+#portfolio h2,
+#portfolio h3 {
+  color: hsla(0, 0%, 0%, 1);
+}
+
+/* Engage */
+
+#engage {
+  background-color: hsla(210, 50%, 100%, 1);
+  color: hsla(210, 50%, 0%, 1);
+}
+#engage h2 {
+  color: hsla(0, 60%, 45%, 1);
+}
+#engage button i {
+  margin-right: 1rem;
+}
+
+/* Footer */
+
+#footer {
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(0, 0%, 0%, 1);
+  margin-top: -6rem;
+}
+#footer p {
+  text-align: center;
+}
+
+/* ------------------------------ Articles */
+
+#app > * > article {
+  position: relative;
+}
+
+#app > * > article > * {
+  padding: 0rem;
+}
+
+/* ------------------------------ Headers */
+
+#app > header {
+  background-color: hsla(210, 70%, 100%, 1);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 300;
+  border-bottom: 0.1rem solid hsla(0, 0%, 0%, 0.05);
+}
+#app > header > section {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+#app > header > section > nav,
+#app > header > section > div {
+  width: auto;
+}
+#app > header > section ul {
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#app > header > section nav ul li {
+  margin: 0;
+  padding: 0;
+}
+#app > header > section nav ul > li a,
+#app > header > section nav ul > li button,
+#app > header > section nav ul > li h4 {
+  color: hsla(0, 100%, 0%, 0.75);
+  display: inline-block;
+  padding: 1.8rem 1rem;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  background-color: transparent;
+  line-height: 100%;
+}
+#app > header > section nav ul > li h4 {
+  width: 100%;
+  white-space: nowrap;
+}
+#app > header > section ul > li a:hover,
+#app > header > section ul > li button:hover {
+  color: hsla(0, 100%, 0%, 1);
+  background-color: transparent;
+}
+
+#app > header > section ul > li .dot {
+  position: absolute;
+  left: 3rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #c704b7;
+  color: white;
+  border-radius: 1rem;
+  top: 1rem;
+  min-width: 2rem;
+  height: 2rem;
+  margin: 0;
+  line-height: 100%;
+}
+
+/* ------------------------------ Mains */
+
+#app > * > article > main {
+  padding-top: 0;
+}
+
+/* ------------------------------ Footers */
+
+#app > * > article > footer {
+  bottom: 0;
+  top: inherit;
+  background-color: hsla(210, 50%, 25%, 1);
+  height: 6rem;
+  position: absolute;
+  z-index: 300;
+}
+
+/* Navigator */
+
+#navigator {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: 8rem;
+  background: #ddd;
+}
+#navigator nav ul {
+  flex-direction: column;
+}
+#navigator nav ul li a {
+  display: inline-block;
+  background: #eee;
+}
+
+#intro {
+  padding-top: 5rem;
+  background-color: hsla(210, 50%, 100%, 1);
+}
+#intro img {
+}
