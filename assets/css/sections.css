@@ -115,7 +115,7 @@
   margin: -2rem 0 0 0;
 }
 #team figure {
-  background: url(../images/avatar-bg.png) no-repeat center center;
+  background: url('~/assets/images/avatar-bg.png') no-repeat center center;
   background-size: contain;
 }
 @media screen and (max-width: 760px) {
@@ -134,7 +134,7 @@
 
 #portfolio {
   background-color: hsla(30, 22%, 80%, 1);
-  background-image: url(../images/bamboo.png);
+  background-image: url(~/assets/mages/bamboo.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-position-x: 130%;

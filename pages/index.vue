@@ -11,7 +11,7 @@
                         </li>
                         <li>
                             <button id="introBtn" @click="scrollto('#intro')">
-                                <img src="images/icon.svg">
+                                <img src="~/assets/images/icon.svg">
                                 <b>Katana</b>
                             </button>
                         </li>
@@ -38,7 +38,7 @@
             <section id="intro" style="position:relative">
                 <div>
                     <div>
-                        <img src="images/logo.svg">
+                        <img src="~/assets/images/logo.svg">
                     </div>
                 </div>
             </section>
@@ -173,19 +173,19 @@ export default {
             ],
             team: [
                 {
-                    image: 'images/yuri-nagano.png',
+                    image: '/images/yuri-nagano.png',
                     name: 'Yuri Nagano',
                     title: 'Finance',
                     bio: 'Making it count'
                 },
                 {
-                    image: 'images/sam-bourque.png',
+                    image: '/images/sam-bourque.png',
                     name: 'Samuel Bourque',
                     title: 'Direction',
                     bio: 'Making things work'
                 },
                 {
-                    image: 'images/troy-martz.png',
+                    image: '/images/troy-martz.png',
                     name: 'Troy Martz',
                     title: 'Design',
                     bio: 'Making magic real'
